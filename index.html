@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>akoru.tk</title>
+    <link rel="stylesheet" href="style.css">
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div class="content__header">
+        akoru.tk
+        <div class="window-buttons">
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="banner">
+            <img class="banner__img" src="src/banner.jpg">
+        </div>
+        <div class="info">
+            <div>
+                <img class="pic" src="src/picture.jpg">
+            </div>
+            <div class="desc">
+                <span class="title">Akorutant</span>
+                <span class="desc-text">Nya, kakoi je cursed klassniy!</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="https://t.me/tsakuri" target="_blank" class="btn linkable">
+                Telegram
+            </a>
+            <a href="https://github.com/akorutant" target="_blank" class="btn linkable">
+                Github
+            </a>
+        </div>
+        <div class="projects">
+            <div class="text">
+                <span class="title"># Projects</span>
+                <span class="subtitle">(click to open)</span>
+            </div>
+
+            <div class="project">
+                <div class="project__name">
+                    <div class="img">
+                        <img src="src/projects/marmok.jpg"/>
+                    </div>
+                    <div class="title">
+                        <span>Marmok Bot</span>
+                    </div>
+                </div>
+
+                <div class="desc">
+                    Bot for the discord server of a famous youtuber Marmok (>17mln subscribers)
+                </div>
+            </div>
+
+            <a class="__link" href="https://t.me/nearconvertbot" target="_blank">
+                <div class="project linkable">
+                    <div class="project__name">
+                        <div class="img">
+                            <img src="src/projects/nearconvertbot.jpg"/>
+                        </div>
+                        <div class="title">
+                            <span>NearConvertBot</span>
+                        </div>
+                    </div>
+
+                    <div class="desc">
+                        Bot for getting the current rate of cryptocurrency NEAR in USD, BYN, RUB.
+                    </div>
+                </div>
+            </a>
+
+            <a class="__link" href="https://t.me/AqoTgBot" target="_blank">
+                <div class="project linkable">
+                    <div class="project__name">
+                        <div class="img">
+                            <img src="src/projects/aqobot.jpg"/>
+                        </div>
+                        <div class="title">
+                            <span>AqoBot</span>
+                        </div>
+                    </div>
+
+                    <div class="desc">
+                        AqoBot for Telegram chats from Discord.
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="support">
+            <div class="text">
+                <span class="title"># Support</span>
+                <span class="subtitle">(swipe to view more)</span>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+
+
+                    <a href="https://github.com" class="swiper-slide support-card __link linkable" target="_blank">
+                        <div class="text">
+                            <span class="title">monobank</span>
+                            <span class="desc">На акулячий корм</span>
+                        </div>
+                        <div class="qr">
+                            <img src="src/qr/qr-1.png">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com" class="swiper-slide support-card __link linkable" target="_blank">
+                        <div class="text">
+                            <span class="title">monobank</span>
+                            <span class="desc">На акулячий корм</span>
+                        </div>
+                        <div class="qr">
+                            <img src="src/qr/qr-1.png">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com" class="swiper-slide support-card __link linkable" target="_blank">
+                        <div class="text">
+                            <span class="title">monobank</span>
+                            <span class="desc">На акулячий корм</span>
+                        </div>
+                        <div class="qr">
+                            <img src="src/qr/qr-1.png">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com" class="swiper-slide support-card __link linkable" target="_blank">
+                        <div class="text">
+                            <span class="title">monobank</span>
+                            <span class="desc">На акулячий корм</span>
+                        </div>
+                        <div class="qr">
+                            <img src="src/qr/qr-1.png">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com" class="swiper-slide support-card __link linkable" target="_blank">
+                        <div class="text">
+                            <span class="title">monobank</span>
+                            <span class="desc">На акулячий корм</span>
+                        </div>
+                        <div class="qr">
+                            <img src="src/qr/qr-1.png">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="links">
+            <span class="title"># Links</span>
+            <div class="list">
+                <a href="https://t.me/tsakuri" class="linkable">Telegram</a>
+                <a href="https://t.me/tsakuri" class="linkable">Discord</a>
+                <a href="https://t.me/akorutantcom" class="linkable">Blog</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            breakpoints: {
+                1200: {slidesPerView: 3},
+                600: {slidesPerView: 2},
+                0: {slidesPerView: 1}
+            }
+        });
+    </script>
+</body>
+</html>
